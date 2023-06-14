@@ -1,1 +1,12 @@
 @import "./base.css";
+
+a,
+.green {
+	color: var(--primary-neon-green);
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+a:hover {
+	text-decoration: underline;
+}
